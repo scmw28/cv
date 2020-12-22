@@ -1,20 +1,100 @@
 body {
-  background-color: #e3fdfd;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
 }
 
 hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-color: grey;
-  border-width: 5px;
-  width: 5%
+  border: dotted #EAF6F6;
+  width: 4%;
+  border-bottom: none;
 }
 
 h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.562rem;
   color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
 }
 
 h3 {
-  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
 }
+
+a {
+  color: #11999E;
+}
+
+p {
+  line-height: 2;
+}
+
+.intro {
+  width: 40%;
+  margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0 100px 0;
+}
+
+.bottom-container {}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 30px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.wood-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.row-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.martialart-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
 }
